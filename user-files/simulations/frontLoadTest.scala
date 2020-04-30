@@ -13,8 +13,8 @@ class frontendLoadTest extends Simulation
     .acceptLanguageHeader("en-US,en;q=0.8")
     .disableFollowRedirect
 
-  val dataDir                 = System.getProperty("dataDir", "/Users/ilyass/Downloads/gatling-charts-highcharts-bundle-3.1.1/user-files/simulations/m1ce").toString
-  val nbUsers                 = System.getProperty("users", "1").toInt
+  val dataDir                 = System.getProperty("dataDir", "/home/centos/gatling/user-files/simulations/m1ce").toString
+  val nbUsers                 = System.getProperty("users", "10").toInt
   val nbRamp                  = System.getProperty("ramp", "30").toInt
   val nbDuring                = System.getProperty("during", "1").toInt
   val domain                  = System.getProperty("domain", "34.244.125.235/index.php").toString
