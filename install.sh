@@ -24,7 +24,6 @@ yum -y install unzip
 
 echo "Install Gatling"
 cd /home/centos
-git clone https://github.com/ilyassmoutite/gatling.git
 
 
 echo "Check if the Gatling folder has been installed."
